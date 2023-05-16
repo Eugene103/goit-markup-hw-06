@@ -383,6 +383,21 @@
                     </li>
                 </ul>
             </div>
+            <div class="e-mail">
+                <p class="title list">Subscribe</p>
+                <form class="subscribe" autocomplete="on" novalidate>
+                    <label class="form-sub">
+                        <input type="email" class="form-input" placeholder=" ">
+                        <span class="name">E-mail</span>
+                    </label>
+                    <label>
+                        <button type="submit" class="btn">Subscribe
+                            <svg class="icon" width="24" height="20" class="icon">
+                                <use href="./images/icons.svg#icon-tg"></use>
+                            </svg></button></label>
+                </form>
+            </div>
+
         </div>
     </footer>
     <!-- backdrop -->
@@ -391,8 +406,32 @@
             <button class="btn" type="button" data-modal-close><svg class="icon" width="8" height="8">
                     <use href="./images/icons.svg#icon-close"></use>
                 </svg></button>
+            <h2 class="paragraf list">Leave your contacts and we will call you back</h2>
+            <form name="call-back" autocomplete="on" novalidate class="call-back">
+                <label class="form-field">Name<div class="form"><input type="text" name="name"
+                            class="form-input"></label>
+                <svg class="icon" width="18" height="24">
+                    <use href="./images/icons.svg#icon-person"></use>
+                </svg>
         </div>
-
+        <label class="form-field">Phone <div class="form"><input type="tel" name="phone" class="form-input"></label>
+        <svg class="icon" width="18" height="24">
+            <use href="./images/icons.svg#icon-phone"></use>
+        </svg>
+    </div>
+    <label class="form-field">Email <div class="form"><input type="email" name="email" class="form-input"></label>
+    <svg class="icon" width="18" height="24">
+        <use href="./images/icons.svg#icon-email"></use>
+    </svg>
+    </div>
+    <label class="form-field">Comment <textarea name="comment" rows="7" placeholder="Text input"
+            class="form-input-cmd"></textarea></label>
+    </form>
+    <label class="check"> <span class="text">I accept the terms and conditions of the <a href="" class="link">Privacy
+                Policy</a>
+        </span><input type="checkbox" name="checkbox" class="check-input"></label>
+    <button type="submit" class="btn-send">Send</button>
+    </div>
     </div>
     <script src="./js/modal.js"></script>
 </body>
