@@ -138,15 +138,15 @@ body {
   transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .call-back .form-input-cmd {
-  resize: none;
-  outline: none;
-  border: 1px solid var(--color-overlay);
-  border-radius: 4px;
-
   min-height: 120px;
   width: 360px;
   margin-top: 4px;
   padding: 8px 16px;
+
+  resize: none;
+  outline: none;
+  border: 1px solid var(--color-overlay);
+  border-radius: 4px;
 }
 .call-back .form-input-cmd:placeholder-shown {
   padding: 8px 0px 0px 16px;
